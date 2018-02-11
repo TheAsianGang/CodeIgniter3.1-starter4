@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Catalog extends Application
+    class Catalog extends Application
 {
 
 	/**
@@ -19,8 +19,14 @@ class Catalog extends Application
 	 */
 	public function index()
 	{
-		$this->data['pagebody'] = 'welcome_message';
-		$this->render(); 
+            $categories = $this->categories->all();
+            $accessories = $this->accessories->all();
+            $this->data['accessories'] = $accessories;
+            $this->data['categories'] = $categories;
+            
+            $this->data['pagebody'] = 'catalog';
+            $this->data['pagetitle'] = 'Accessory Catalog';
+            $this->render();
 	}
 
 }
