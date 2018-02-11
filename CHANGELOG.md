@@ -9,3 +9,5 @@ Features:
   - Added .CSV's
 
   - Added sets, categories and accessories models.
+
+  - Added Categories.php
