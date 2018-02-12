@@ -7,12 +7,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Info extends Application
 {
+    /*
+     * Controller for Info
+     * Info root, returns description of scenario
+     */
     public function index()
     {
         header("Content-type: application/json");
         echo json_encode("Scenario: PUBG");
     }
     
+    /*
+     * Returns designated category if valid id
+     * is specified, otherwise, returns all categories
+     */
     public function category($key = NULL)
     {
         $categories = $this->Categories->all();
@@ -22,6 +30,7 @@ class Info extends Application
             {
                 if(!strcmp($row->id, $key))
                 {
+                    //id is found, return corresponding row
                     header("Content-type: application/json");
                     echo json_encode($row);
                 }
@@ -29,11 +38,16 @@ class Info extends Application
         }
         else
         {
+            //id is not found, return all rows
             header("Content-type: application/json");
             echo json_encode($categories);
         }
     }
     
+    /*
+     * Returns designated accessory if valid id
+     * is specified, otherwise, returns all accessories
+     */
     public function catalog($key = NULL)
     {
         $accessories = $this->Accessories->all();
@@ -43,6 +57,7 @@ class Info extends Application
             {
                 if(!strcmp($row->id, $key))
                 {
+                    //id is found, return corresponding row
                     header("Content-type: application/json");
                     echo json_encode($row);
                 }
@@ -50,11 +65,16 @@ class Info extends Application
         }
         else
         {
+            //id is not found, return all rows
             header("Content-type: application/json");
             echo json_encode($accessories);
         }
     }
     
+    /*
+     * Returns designated set if valid id
+     * is specified, otherwise, returns all sets
+     */
     public function bundle($key = NULL)
     {
         $sets = $this->Sets->all();
@@ -64,6 +84,7 @@ class Info extends Application
             {
                 if(!strcmp($row->id, $key))
                 {
+                    //id is found, return corresponding row
                     header("Content-type: application/json");
                     echo json_encode($row);
                 }
@@ -71,6 +92,7 @@ class Info extends Application
         }
         else
         {
+            //id is not found, return all rows
             header("Content-type: application/json");
             echo json_encode($sets);
         }

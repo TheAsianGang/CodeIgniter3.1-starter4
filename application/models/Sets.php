@@ -12,14 +12,23 @@
  * @author Owner
  */
 class Sets extends CSV_Model {
-    //put your code here
+    
+    //id of set (acts as primary key)
     public $id;
+    //name of set
     public $name;
+    //id of helm accessory in set
     public $helmId;
+    //id of chest accessory in set
     public $chestId;
+    //id of primary accessory in set
     public $primaryId;
+    //id of secondary accessory in set
     public $secondaryId;
     
+    /*
+     * Sets model constructor
+     */
     function __construct()
     {
         parent::__construct('../data/Sets.csv', 'id');

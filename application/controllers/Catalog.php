@@ -12,22 +12,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author Owner
  */
 class Catalog extends Application {
-    //put your code here
+    
+    /*
+     * Constructor for Catalog
+     */
     function __construct()
     {
         parent::__construct();
     }
     
+    /*
+     * Controller for Catalog view
+     */
     function index()
     {
+        //Retrieve csv data
         $accessories = $this->Accessories->all();
         $categories = $this->Categories->all();
         
+        //Inject csv data into controller
         $this->data['accessories'] = $accessories;
         $this->data['categories'] = $categories;
         
+        //Set pagebody and page title, render
         $this->data['pagebody'] = 'catalog';
-        $this->data['pagetitle'] = 'catalogue';
+        $this->data['pagetitle'] = 'Catalog';
         $this->render();
     }
 }
