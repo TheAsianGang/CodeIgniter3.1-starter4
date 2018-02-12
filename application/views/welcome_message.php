@@ -11,10 +11,34 @@
     
     <div class="imgParent">
         <img class="modelImg" src="/assets/img/model.png" />
-        <img class="helmImg" src="{helmId}" alt="Helmet"/>
-        <img class="chestImg" src="{chestId}" alt="Chest"/>
-        <img class="primaryImg" src="{primaryId}" alt="Primary"/>
-        <img class="secondaryImg" src="{secondaryId}" alt="Secondary"/>
+        <img class="helmImg" src="{helmId}" 
+             title="
+             Name: {helmName}
+             Damage: {helmDmg}
+             Protection: {helmProt}
+             Weight: {helmWeight}"
+             alt="Helmet"/>
+        <img class="chestImg" src="{chestId}" 
+             title="
+             Name: {chestName}
+             Damage: {chestDmg}
+             Protection: {chestProt}
+             Weight: {chestWeight}"
+             alt="Chest"/>
+        <img class="primaryImg" src="{primaryId}" 
+             title="
+             Name: {primaryName}
+             Damage: {primaryDmg}
+             Protection: {primaryProt}
+             Weight: {primaryWeight}"
+             alt="Primary"/>
+        <img class="secondaryImg" src="{secondaryId}" 
+             title="
+             Name: {secondaryName}
+             Damage: {secondaryDmg}
+             Protection: {secondaryProt}
+             Weight: {secondaryWeight}"
+             alt="Secondary"/>
     </div>
     
     
