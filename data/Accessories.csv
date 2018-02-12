@@ -1,6 +1,6 @@
 id,catId,imagepath,name,damage,protection,weight
-0,0,/assets/img/helmet1.png,Helmet1,0,20,20
-1,0,/assets/img/helmet2.png,Helmet2,0,25,15
+0,0,/assets/img/hel1.png,Helmet1,0,20,20
+1,0,/assets/img/hel2.png,Helmet2,0,25,15
 2,1,/assets/img/chest1.png,Chest1,0,60,50
 3,1,/assets/img/chest2.png,Chest2,0,75,45
 4,2,/assets/img/rifle1.png,Rifle1,50,0,20
