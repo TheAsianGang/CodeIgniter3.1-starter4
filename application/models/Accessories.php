@@ -6,7 +6,7 @@ class Accessories extends CSV_Model
     // Accessories category Id
     public $catId;
     // Accessories image path
-    public $imagepath;
+    public $image;
     // Accessores damage
     public $damage;
     // Accessories protection
