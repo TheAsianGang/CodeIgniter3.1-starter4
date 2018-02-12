@@ -53,16 +53,3 @@ p.footer {
 	border: 1px solid #D0D0D0;
 	box-shadow: 0 0 8px #D0D0D0;
 }
-
-#items_table{
-    border-collapse: collapse;
-}
-
-p.item_header{
-    color:#E13300;
-    background-color:activeborder;
-}
-
-.item_row{
-    
-}
