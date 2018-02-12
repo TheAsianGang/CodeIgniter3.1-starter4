@@ -12,11 +12,17 @@
  * @author Owner
  */
 class Categories extends CSV_Model {
-    //put your code here
+
+    //id of category (acts as primary key)
     public $id;
+    //name of category
     public $name;
+    //description of category
     public $desc;
     
+    /*
+     * Categories model constructor
+     */
     function __construct()
     {
         parent::__construct('../data/Categories.csv', 'id');

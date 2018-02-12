@@ -132,4 +132,7 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
+
+
+//Custom model autoloader for .csv's
 $autoload['model'] = array('Accessories', 'Categories', 'Sets');
