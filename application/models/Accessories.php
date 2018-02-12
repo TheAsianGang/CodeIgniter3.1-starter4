@@ -1,21 +1,29 @@
 <?php
-class Accessories extends CSV_Model
-{
-    // Accessories Id
-    public $id;
-    // Accessories category Id
-    public $catId;
-    // Accessories image path
-    public $imagepath;
-    // Accessores damage
-    public $damage;
-    // Accessories protection
-    public $protection;
-    // Accessories weight
-    public $weight;
 
-    function __construct()
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of Accessories
+ *
+ * @author Owner
+ */
+class Accessories extends CSV_Model{
+    //put your code here
+    
+    public $id;
+    public $catId;
+    public $imagepath;
+    public $name;
+    public $damage;
+    public $protection;
+    public $weight;
+    
+    public function __construct()
     {
-        parent::__construct(APPPATH . "../data/Accessories.csv", "id", "accessories");
+        parent::__construct('../data/Accessories.csv', 'id');
     }
 }
