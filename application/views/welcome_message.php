@@ -8,23 +8,17 @@
         {/sets}
       </ul>
     </div>
-    <div class="col-lg-6 picture">
-        <div style="text-align:center">
-            Helmet
-            <img style="width:10%; margin-right:55px; margin-bottom:5px;" src="{helmId}" alt="Helmet"/>
-        </div>
-        <div style="text-align:center">
-            Chest
-            <img style="width:10%; margin-right:45px; margin-bottom:5px;" src="{chestId}" alt="Chest"/>
-        </div>
-        <div style="text-align:center">
-            Primary
-            <img style="width:10%; margin-bottom:5px;" src="{primaryId}" alt="Primary"/>
-            Secondary
-            <img style="width:10%; margin-bottom:5px;" src="{secondaryId}" alt="Secondary"/>
-        </div>
+    
+    <div class="imgParent">
+        <img class="modelImg" src="/assets/img/model.png" />
+        <img class="helmImg" src="{helmId}" alt="Helmet"/>
+        <img class="chestImg" src="{chestId}" alt="Chest"/>
+        <img class="primaryImg" src="{primaryId}" alt="Primary"/>
+        <img class="secondaryImg" src="{secondaryId}" alt="Secondary"/>
     </div>
-    <div class="col-lg-4" style="text-align:center">
+    
+    
+  <div class="col-lg-4" style="text-align:center">
         <h2>
             {name}
         </h2>
