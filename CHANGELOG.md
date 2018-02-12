@@ -8,10 +8,13 @@ Team Members:
 
 Team conventions: Allman notation, markdown for changelog
 
----Version 1.4---Release Date: Feb 10, 2018---
+---Version 1.5---Release Date: Feb 11, 2018---
+Added header view template, put nav links inside
+
+---Version 1.4---Release Date: Feb 11, 2018---
 Added Info controller, and edited changelog
 
----Version 1.3---Release Date: Feb 10, 2018---
+---Version 1.3---Release Date: Feb 11, 2018---
 Added Welcome/homepage controller/view
 
 ---Version 1.2---Release Date: Feb 10, 2018---
