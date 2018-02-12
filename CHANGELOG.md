@@ -6,6 +6,10 @@ Team Members:
 - Inochi Tanaka
 - Philip Shin
 
+Implement Catalog page
+
+---Version 1.7---Release Date: Feb 12, 2018---
+
 Team conventions: Allman notation, markdown for changelog
 
 ---Version 1.6---Release Date: Feb 11, 2018---
