@@ -10,7 +10,7 @@ Implement Catalog page
 
 ## Version 1.8---Release Date: Feb 12, 2018---
 
-Fixed catalog tags, improved header
+Fixed catalog tags, improved header, modified Info.php
 
 ## Version 1.7---Release Date: Feb 12, 2018---
 
