@@ -1,17 +1,24 @@
 # CHANGELOG.md
 
-### Note: Add changelog at the bottom of the file
+Team Members:
+- Michael Navarro
+- Ken Dao
+- Inochi Tanaka
+- Philip Shin
 
-## 1.0.0 (2018-02-10)
+Team conventions: Allman notation, markdown for changelog
 
-Features:
+---Version 1.4---Release Date: Feb 10, 2018---
+Added Info controller, and edited changelog
 
-  - Added .CSV's
+---Version 1.3---Release Date: Feb 10, 2018---
+Added Welcome/homepage controller/view
 
-  - Added sets, categories and accessories models.
+---Version 1.2---Release Date: Feb 10, 2018---
+Added Categories.php
 
-  - Added Categories.php
-  
-## 1.0.0 (2018-02-11)
+---Version 1.1---Release Date: Feb 10, 2018---
+Added sets, categories and accessories models
 
-	- Added Welcome/homepage controller/view
+---Version 1.0---Release Date: Feb 10, 2018---
+Added .CSV's
