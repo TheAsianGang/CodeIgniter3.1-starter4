@@ -10,20 +10,20 @@
 }
 .helmImg {
   position: absolute;
-  top: 40px;
-  left: 245px;
+  top: 10px;
+  left: 210px;
 }
 
 .chestImg {
   position: absolute;
   top: 150px;
-  left: 225px;
+  left: 215px;
 }
 
 .primaryImg {
   position: absolute;
-  top: 255px;
-  left: 15px;
+  top: 350px;
+  left: 65px;
 }
 
 .secondaryImg {
