@@ -11,3 +11,7 @@ Features:
   - Added sets, categories and accessories models.
 
   - Added Categories.php
+  
+## 1.0.0 (2018-02-11)
+
+	- Added Welcome/homepage controller/view

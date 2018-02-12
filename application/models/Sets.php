@@ -1,23 +1,27 @@
 <?php
 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
-class Sets extends CSV_Model
-{
-    // Sets Id
+/**
+ * Description of Sets
+ *
+ * @author Owner
+ */
+class Sets extends CSV_Model {
+    //put your code here
     public $id;
-    // Sets name
     public $name;
-    // Sets helmId
     public $helmId;
-    // Sets chestId
     public $chestId;
-    // Sets primaryId
     public $primaryId;
-    // Sets secondaryId
     public $secondaryId;
-
+    
     function __construct()
     {
-        parent::__construct(APPPATH . "../data/Sets.csv", "id", "sets");
+        parent::__construct('../data/Sets.csv', 'id');
     }
 }
