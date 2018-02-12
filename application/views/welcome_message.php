@@ -1,15 +1,13 @@
-<div class="col-lg-12">
-    <div class="col-lg-2">
-            <ul>
-                {sets}
-                <li>
-                    <a href="/Welcome/set/{id}"> {name}</a>
-                </li>
-                {/sets}
-            </ul>
+<div>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sets
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        {sets}
+            <li><a href="/Welcome/set/{id}"> {name}</a></li>
+        {/sets}
+      </ul>
     </div>
-
-
     <div class="col-lg-6 picture">
         <div style="text-align:center">
             Helmet
@@ -26,7 +24,6 @@
             <img style="width:10%; margin-bottom:5px;" src="{secondaryId}" alt="Secondary"/>
         </div>
     </div>
-
     <div class="col-lg-4" style="text-align:center">
         <h2>
             {name}
