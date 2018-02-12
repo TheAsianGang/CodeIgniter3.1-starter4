@@ -32,3 +32,43 @@
   left: 370px;
 }
 
+p{
+    
+}
+
+#all-items{
+    width: 80%;  
+    margin: 0 auto;  
+}
+
+#items_table{
+    width: 700dp;
+}
+
+table {
+    margin-top: 30dp;
+    width: 100%;
+}
+
+p{
+    font-size: 30px;
+}
+
+table td img{
+          text-align: center;
+}
+
+table tr th,
+table tr td{
+    padding: 0 10px;
+    width: 20%;
+    border: 1px solid #DDD;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table tr th {
+    padding: 10px 0;
+    font-weight: bold;
+    background-color:#A9D0F5;
+}
