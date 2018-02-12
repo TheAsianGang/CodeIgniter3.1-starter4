@@ -14,7 +14,7 @@ class Info extends Application
     public function index()
     {
         header("Content-type: application/json");
-        echo json_encode("Scenario: PUBG");
+        echo json_encode("Scenario: PUBG Player");
     }
     
     /*
