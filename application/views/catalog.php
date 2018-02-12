@@ -16,7 +16,7 @@
           <td><p>{protection}</p></td>
           <td><p>{weight}</p></td>
         </tr>
-      </div>
     {/accessories}
+    </table>
   </div>
 </tbody>
