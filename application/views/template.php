@@ -14,6 +14,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	<body>
+            
+            {header}
+            <div class="alone"></div>
         <div id="container">
 			{content}
 			<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. 
