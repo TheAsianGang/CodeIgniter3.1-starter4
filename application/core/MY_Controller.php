@@ -33,6 +33,7 @@ class Application extends CI_Controller
 	function render($template = 'template')
 	{
 		$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
+                $this->data['header'] = $this->parser->parse('header', $this->config->item('menu_config'), true);
 		$this->parser->parse('template', $this->data);
 	}
 
