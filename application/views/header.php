@@ -1,14 +1,10 @@
-<div class="menu">
-    <div class="container-fluid">
-		<div class="navbar-header">
-			<a href="/">Assignment1</a>
-		</div>
-		<div>
-			<ul class="nav navbar-nav navbar-right">
-				{menulist}
-      <li><a href="{link}">{name}</a></li>
-      {/menulist}
-			</ul>
-		</div>
-	</div>
-</div>
+<div class="card text-center">
+ <div class="card-header">
+   <ul class="nav nav-pills card-header-pills">
+        {menulist}
+     <li class="nav-item">
+       <a class="nav-link" href="{link}">{name}</a>
+     </li>
+        {/menulist}
+   </ul>
+ </div>
