@@ -40,22 +40,10 @@
              Weight: {secondaryWeight}"
              alt="Secondary"/>
     </div>
-    
-    
-  <div class="col-lg-4" style="text-align:center">
-        <h2>
-            {name}
-        </h2>
-        <div style="border-style:solid; border-width:3px;">
-            <div>
-                <h4>Damage: {damageStat}</h4>
-            </div>
-             <div>
-                <h4>Protection: {protectionStat}</h4>
-            </div>
-             <div>
-                <h4>Weight: {weightStat}</h4>
-            </div>
-        </div>
+    <div class="setDetail">
+        <h2>{name}</h2>
+        <h4>Damage: {damageStat}</h4>
+        <h4>Protection: {protectionStat}</h4>
+        <h4>Weight: {weightStat}</h4>        
     </div>
 </div>
