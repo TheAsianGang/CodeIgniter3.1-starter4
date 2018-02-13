@@ -6,7 +6,8 @@ Team Members:
 - Inochi Tanaka
 - Philip Shin
 
-Implement Catalog page
+---Version 1.8---Release Date: Feb 12, 2018---
+Edited css, edited catalog, navigation bar, and footer
 
 ---Version 1.7---Release Date: Feb 12, 2018---
 
